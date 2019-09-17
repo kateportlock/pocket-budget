@@ -1,33 +1,268 @@
-.App {
+/* Main Styles */
+
+html {
+  color: #1B1D23;
+}
+
+.app {
   text-align: center;
+  min-height: 93.5vh;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/* Top blue container */
+
+.flex {
+  background: #00d2ff;  
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); 
+  height: 65vh;
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+/* Top white container */
+
+.topNav {
+  background: white;
+  width: 40%;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+/* Balance totals */
+
+.containerTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.balance {
+  display: grid;
+}
+
+.totals, 
+.totalInc, 
+.totalExp {
+  padding: 10px;
+}
+
+.borderBalance {
+  border-right: 2px dashed dodgerblue;
+  border-left: 2px dashed dodgerblue;
+}
+
+/* Expense and income classes */
+
+.exp {
+  color: #FF4C3F;
+}
+
+.inc {
+  color: #53A548;
+}
+
+/* Progress Bar */
+
+.progressBar {
+  margin: 0 auto;
+  width: 80%;
+  border-radius: 13px;
+  padding: 3px;
+  margin-top: 20px;
+  border: 2px solid #1B1D23;
+}
+
+.progressBar>div {
+  height: 20px;
+  border-radius: 10px;
+}
+
+.low {
+  background-color: #31ca2f;
+}
+
+.medium {
+  background-color: #f9d03a;
+}
+
+.mediumTwo {
+  background-color: #f5a037;
+}
+
+.high {
+  background-color: #f53737;
+}
+
+
+/* Buttons */
+
+.addBtn {
+  display: inline-block;
+  background-color: #51BBFE;
+  border: 1px solid #51BBFE;
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 4px solid #51BBFE;
+  border-radius: 5px;
   color: white;
+  padding: 7px 28px;
+  margin: 2px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.addBtn:hover {
+  background-color: #328ede;
+  border: 1px solid #328ede;
+  border-bottom: 4px solid #328ede;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.deleteBtn {
+  background-color: #51BBFE;
+  border: 1px solid #51BBFE;
+  color: white;
+  margin: 2px;
+  border-radius: 5px;
+  font-weight: bold;
+  float: right;
+  outline: none;
+}
+
+.deleteBtn:hover {
+  background-color: #328ede;
+  border: 1px solid #328ede;
+}
+
+
+/* Forms/inputs */
+
+form {
+  padding: 15px;
+}
+
+input {
+  height: 15px;
+  padding: 10px;
+  margin: 2px;
+  border: 1px solid #51BBFE;
+  border-radius: 5px;
+  outline: none;
+}
+
+.descriptionInp {
+  width: 20%;
+}
+
+.amountInp {
+  width: 8%;
+}
+
+select {
+  margin: 2px;
+  height: 36px;
+  border: 1px solid #51BBFE;
+  background: white;
+  outline: none;
+}
+
+/* Transaction List */
+
+.transactionList {
+  margin: 0 auto;
+  width: 50%;
+  padding-bottom: 30px;
+}
+
+.descList {
+  display: grid;
+  grid-template-columns: 3fr 2fr 0.1fr;
+}
+
+/* Additional elements */
+
+hr {
+	border-top: 1px dashed #51BBFE;
+}
+
+i {
+  font-size: 30px;
+  color: dodgerblue;
+  padding: 15px;
+}
+
+.noList {
+  padding-top: 30px;
+}
+
+/* Footer */
+
+.footer {
+  background: #2aa1e7;
+  text-align: center;
+  height: 45px;
+}
+
+.foot {
+  color: white;
+  padding-top: 14px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* @Media */
+
+@media screen and (max-width: 1250px) {
+  .topNav {
+    width: 50%
   }
-  to {
-    transform: rotate(360deg);
+
+  .transactionList{
+    width: 70%;
   }
+
+}
+
+@media screen and (max-width: 780px) {
+  .containerTop {
+    grid-template-columns: 1fr;
+  }
+
+  .topNav {
+    width: 67%
+  }
+
+  .balance{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .borderBalance {
+    border: none;
+  }
+
+  i, 
+  .totalInc, 
+  .totalExp, 
+  .totals {
+    padding: 0;
+  }
+
+  .transactionList{
+    width: 90%;
+  }
+
+  .descriptionInp {
+    width: 30%;
+  }
+
+  .amountInp {
+    width: 10%;
+  }
+
 }
