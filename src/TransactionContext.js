@@ -5,7 +5,7 @@ export const TransactionContext = createContext();
 export const TransactionProvider = (props) => {
 
     const[transactions, setTransactions] = useState(
-        JSON.parse(localStorage.getItem('transactions'))
+        JSON.parse(localStorage.getItem('transactions')) || []
     );
 
     useEffect(() => {
