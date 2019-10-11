@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pocket-budget/static/css/main.d4f3d835.chunk.css",
+    "main.css": "/pocket-budget/static/css/main.3c87a26b.chunk.css",
     "main.js": "/pocket-budget/static/js/main.ad44414a.chunk.js",
     "main.js.map": "/pocket-budget/static/js/main.ad44414a.chunk.js.map",
     "runtime~main.js": "/pocket-budget/static/js/runtime~main.95e774a8.js",
@@ -8,8 +8,8 @@
     "static/js/2.7ec084c4.chunk.js": "/pocket-budget/static/js/2.7ec084c4.chunk.js",
     "static/js/2.7ec084c4.chunk.js.map": "/pocket-budget/static/js/2.7ec084c4.chunk.js.map",
     "index.html": "/pocket-budget/index.html",
-    "precache-manifest.e62450d54c15c8edb469575781735971.js": "/pocket-budget/precache-manifest.e62450d54c15c8edb469575781735971.js",
+    "precache-manifest.adc9c68cc69d7ecf1ba1ede4d275d3b3.js": "/pocket-budget/precache-manifest.adc9c68cc69d7ecf1ba1ede4d275d3b3.js",
     "service-worker.js": "/pocket-budget/service-worker.js",
-    "static/css/main.d4f3d835.chunk.css.map": "/pocket-budget/static/css/main.d4f3d835.chunk.css.map"
+    "static/css/main.3c87a26b.chunk.css.map": "/pocket-budget/static/css/main.3c87a26b.chunk.css.map"
   }
 }
