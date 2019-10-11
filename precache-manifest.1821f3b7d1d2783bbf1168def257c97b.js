@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c45382dcd7121e6bbe7ea0b04d298589",
+    "revision": "39acb47d7c9735d5fd1bde662d86e8a0",
     "url": "/pocket-budget/index.html"
   },
   {
-    "revision": "a800a3432f0cea45db58",
-    "url": "/pocket-budget/static/css/main.e40596c6.chunk.css"
+    "revision": "ce63164df4caa815fa7f",
+    "url": "/pocket-budget/static/css/main.698180db.chunk.css"
   },
   {
     "revision": "a79f6009efa3755a34ea",
     "url": "/pocket-budget/static/js/2.7ec084c4.chunk.js"
   },
   {
-    "revision": "a800a3432f0cea45db58",
+    "revision": "ce63164df4caa815fa7f",
     "url": "/pocket-budget/static/js/main.ad44414a.chunk.js"
   },
   {
