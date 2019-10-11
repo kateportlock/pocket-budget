@@ -218,20 +218,15 @@ i {
 
 /* @Media */
 
-@media screen and (max-width: 1250px) {
-  .topNav {
-    width: 50%
-  }
+@media screen and (max-width: 1050px) {
 
   .transactionList{
-    width: 70%;
+    min-height: 23.5vh;
   }
 
-}
-
-@media screen and (max-width: 780px) {
   .containerTop {
     grid-template-columns: 1fr;
+    max-height: 300px;
   }
 
   .topNav {
