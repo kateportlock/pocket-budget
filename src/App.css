@@ -221,12 +221,14 @@ i {
 @media screen and (max-width: 1050px) {
 
   .transactionList{
-    min-height: 23.5vh;
+    min-height: 26.6vh;
   }
 
   .containerTop {
     grid-template-columns: 1fr;
-    max-height: 300px;
+    max-height: 230px;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
   }
 
   .topNav {
