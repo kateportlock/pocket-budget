@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pocket-budget/static/css/main.a2e6fe49.chunk.css",
-    "main.js": "/pocket-budget/static/js/main.ad44414a.chunk.js",
-    "main.js.map": "/pocket-budget/static/js/main.ad44414a.chunk.js.map",
+    "main.css": "/pocket-budget/static/css/main.75831755.chunk.css",
+    "main.js": "/pocket-budget/static/js/main.9afcaaa0.chunk.js",
+    "main.js.map": "/pocket-budget/static/js/main.9afcaaa0.chunk.js.map",
     "runtime~main.js": "/pocket-budget/static/js/runtime~main.95e774a8.js",
     "runtime~main.js.map": "/pocket-budget/static/js/runtime~main.95e774a8.js.map",
     "static/js/2.7ec084c4.chunk.js": "/pocket-budget/static/js/2.7ec084c4.chunk.js",
     "static/js/2.7ec084c4.chunk.js.map": "/pocket-budget/static/js/2.7ec084c4.chunk.js.map",
     "index.html": "/pocket-budget/index.html",
-    "precache-manifest.4e98d4b278cfe00705980f162c4b4dd6.js": "/pocket-budget/precache-manifest.4e98d4b278cfe00705980f162c4b4dd6.js",
+    "precache-manifest.0ef140b8746377dbccbe52d29c10a530.js": "/pocket-budget/precache-manifest.0ef140b8746377dbccbe52d29c10a530.js",
     "service-worker.js": "/pocket-budget/service-worker.js",
-    "static/css/main.a2e6fe49.chunk.css.map": "/pocket-budget/static/css/main.a2e6fe49.chunk.css.map"
+    "static/css/main.75831755.chunk.css.map": "/pocket-budget/static/css/main.75831755.chunk.css.map"
   }
 }
