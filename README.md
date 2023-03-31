@@ -4,7 +4,7 @@ Pocket Budget is a simple personal finance management app that enables you to en
 
 This app has been developed using React JS and React Hooks, including React Context, and features local storage. The app's design is styled with CSS Grid Layout and Flexbox, making it mobile responsive.
 
-Mini demo gif is shown below:
+Demo gif:
 
 ![demo](demo.gif)
 
