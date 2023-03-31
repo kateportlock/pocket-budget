@@ -1,12 +1,8 @@
 # Pocket Budget
 
-Pocket Budget is an app for managing personal finances. It allows you to enter a new transaction and delete it if needed. These changes are reflected in "Total Balance" menu. Users can also see the percentage of amount spent on the progress bar.  
+Pocket Budget is a simple personal finance management app that enables you to enter and delete transactions as required. These modifications are immediately reflected in the "Total Balance" menu. Additionally, users can monitor the percentage of the amount spent through the progress bar.
 
-This app was built in React JS with React Hooks (e.g. React Context) and has local storage. Styled with CSS Grid Layout and Flexbox. App is mobile responsive. 
-
-The deployed version can be seen here:
-
-https://kate-gill.github.io/pocket-budget/
+This app has been developed using React JS and React Hooks, including React Context, and features local storage. The app's design is styled with CSS Grid Layout and Flexbox, making it mobile responsive.
 
 Mini demo gif is shown below:
 
